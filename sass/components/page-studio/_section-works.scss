@@ -1,0 +1,14 @@
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    @extend %list;
+}
+
+.work-list__item {
+    position: relative;
+}
+
+.work-list__img {
+    display: block;
+}
+
