@@ -62,7 +62,10 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
+          <h1 class="hero__title">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
           <button class="btn hero__button" data-modal-open type="button">
             Замовити послугу
           </button>
@@ -130,19 +133,30 @@
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="work-list">
-            <li class="work-list_item">
-              <img src="./images/box-1.jpg" alt="створення сайту" width="370" class="work-list__img" />
+            <li class="work-list__item">
+              <img
+                src="./images/box-1.jpg"
+                alt="створення сайту"
+                width="370"
+                class="work-list__img"
+              />
               <h3 class="work-list__title">Десктопні додатки</h3>
             </li>
-            <li class="work-list_item">
-              <img src="./images/box-2.jpg" alt="адаптація сайту" width="370" class="work-list__img" />
+            <li class="work-list__item">
+              <img
+                src="./images/box-2.jpg"
+                alt="адаптація сайту"
+                width="370"
+                class="work-list__img"
+              />
               <h3 class="work-list__title">Мобільні додатки</h3>
             </li>
-            <li class="work-list_item">
+            <li class="work-list__item">
               <img
                 src="./images/box-3.jpg"
                 alt="створення дизайну"
-                width="370" class="work-list__img"
+                width="370"
+                class="work-list__img"
               />
               <h3 class="work-list__title">Дизайнерські рішення</h3>
             </li>
@@ -160,6 +174,7 @@
                 src="./images/employee-1.jpg"
                 alt="Ігор Дем'яненко"
                 width="270"
+                class="worker-list__img"
               />
               <div class="team-list__description">
                 <h3 class="team-list__name">Ігор Дем'яненко</h3>
@@ -222,6 +237,7 @@
                 src="./images/employee-2.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
+                class="worker-list__img"
               />
               <div class="team-list__description">
                 <h3 class="team-list__name">Ольга Рєпіна</h3>
@@ -284,6 +300,7 @@
                 src="./images/employee-3.jpg"
                 alt="Микола Тарасов"
                 width="270"
+                class="worker-list__img"
               />
               <div class="team-list__description">
                 <h3 class="team-list__name">Микола Тарасов</h3>
@@ -346,6 +363,7 @@
                 src="./images/employee-4.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
+                class="worker-list__img"
               />
               <div class="team-list__description">
                 <h3 class="team-list__name">Михайло Єрмаков</h3>
@@ -414,7 +432,7 @@
             <li>
               <a class="clients-list__link" href="" aria-label="YA & GO">
                 <span class="visually-hidden">YA & GO</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-1"></use>
                 </svg>
               </a>
@@ -426,7 +444,7 @@
                 aria-label="Company Tagline Here"
               >
                 <span class="visually-hidden">Company Tagline Here</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-2"></use>
                 </svg>
               </a>
@@ -434,7 +452,7 @@
             <li>
               <a class="clients-list__link" href="" aria-label="Company">
                 <span class="visually-hidden">Company</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-3"></use>
                 </svg>
               </a>
@@ -442,7 +460,7 @@
             <li>
               <a class="clients-list__link" href="" aria-label="Foster Peters">
                 <span class="visually-hidden">Foster Peters</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-4"></use>
                 </svg>
               </a>
@@ -450,7 +468,7 @@
             <li>
               <a class="clients-list__link" href="" aria-label="Brand">
                 <span class="visually-hidden">Brand</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-5"></use>
                 </svg>
               </a>
@@ -462,7 +480,7 @@
                 aria-label="Company Tag Line"
               >
                 <span class="visually-hidden">Company Tag Line</span>
-                <svg class="client-list__icon" width="106" height="60">
+                <svg class="clients-list__icon" width="106" height="60">
                   <use href="./images/icons.svg#client-6"></use>
                 </svg>
               </a>
@@ -586,14 +604,14 @@
     <!-- Modal window -->
     <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
-        <button class="close__modal-btn" data-modal-close type="button">
-          ✖
+        <button class="modal__close-btn" data-modal-close type="button">
+          &#10006;
         </button>
 
         <form class="modal-form">
-          <h2 class="modal-form__title">
-            Залиште свої дані, ми вам передзвонимо
-          </h2>
+          <strong class="modal-form__title"
+            >Залиште свої дані, ми вам передзвонимо</strong
+          >
 
           <div class="modal-form__field">
             <label class="modal-form__label" for="name">Ім'я</label>
@@ -610,17 +628,17 @@
 
           <div class="modal-form__field">
             <label class="modal-form__label" for="tel">Телефон</label>
-            <input class="modal-form__input" type="text" name="tel" id="tel" />
+            <input class="modal-form__input" type="tel" name="tel" id="tel" />
             <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/icons.svg#phone"></use>
             </svg>
           </div>
 
           <div class="modal-form__field">
-            <label class="modal-field-label" for="email">Пошта</label>
+            <label class="modal-form__label" for="email">Пошта</label>
             <input
               class="modal-form__input"
-              type="text"
+              type="email"
               name="email"
               id="email"
             />
@@ -639,7 +657,7 @@
 
           <label class="modal-form__label-policy">
             <input class="modal-form__checkbox" type="checkbox" name="policy" />
-            <svg class="modal-form__icon-checked" width="16" height="15">
+            <svg class="modal-form__icon-check" width="16" height="15">
               <use href="./images/icons.svg#checked"></use>
             </svg>
             <span class="modal-form__policy"
