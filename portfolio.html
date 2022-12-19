@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-     <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Портфоліо</title>
   </head>
   <body>
@@ -30,7 +30,9 @@
               <a href="./index.html" class="site-nav__link">Студія</a>
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link site-nav__link--current"
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--current"
                 >Портфоліо</a
               >
             </li>
@@ -88,13 +90,18 @@
             </li>
           </ul>
 
-          <ul class="project-list">
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+          <ul class="projects-list">
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-1.jpg" alt="Проєкт 1" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-1.jpg"
+                    alt="Веб-сайт"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay-description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -102,18 +109,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Технокряк</h2>
-                  <p class="project-list__type">Веб-сайт</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Технокряк</h2>
+                  <p class="projects-list__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-2.jpg" alt="Проєкт 2" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-2.jpg"
+                    alt="Постер"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -121,20 +134,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="project-list__type">Дизайн</p>
+                  <p class="projects-list__descr">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-3.jpg" alt="Проєкт 3" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-3.jpg"
+                    alt="Логотип додатку"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -142,37 +161,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Ресторан Seafood</h2>
-                  <p class="project-list__type">Додаток</p>
-                </div></a
-              >
-            </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
-                <div class="project-thumb">
-                  <img src="./images/img-4.jpg" alt="Проєкт 4" width="370" />
-                  <div class="project-overlay">
-                    <p class="project-overlay__description">
-                      Ресурс пропонує комплексні пропозиції з різним рівнем
-                      функціоналу та сервісів. Все це дозволить відвідувачу
-                      отримати вичерпні відомості про компанію чи приватну
-                      особу.
-                    </p>
-                  </div>
-                </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Проєкт Prime</h2>
-                  <p class="project-list__type">Маркетинг</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Ресторан Seafood</h2>
+                  <p class="projects-list__descr">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-5.jpg" alt="Проєкт 5" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-4.jpg"
+                    alt="Навушники"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -180,18 +186,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Проєкт Boxes</h2>
-                  <p class="project-list__type">Додаток</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Проєкт Prime</h2>
+                  <p class="projects-list__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-6.jpg" alt="Проєкт 6" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-5.jpg"
+                    alt="Дві коробочки"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -199,18 +211,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="project-list__type">Веб-сайт</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Проєкт Boxes</h2>
+                  <p class="projects-list__descr">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-7.jpg" alt="Проєкт 7" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-6.jpg"
+                    alt="Веб-сайт"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -218,18 +236,26 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Видання Limited Edition</h2>
-                  <p class="project-list__type">Дизайн</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="projects-list__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-8.jpg" alt="Проєкт 8" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-7.jpg"
+                    alt="Книга"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -237,18 +263,24 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Проєкт LAB</h2>
-                  <p class="project-list__type">Маркетинг</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Видання Limited Edition</h2>
+                  <p class="projects-list__descr">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-list__item">
-              <a href="" class="project-list__link">
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
                 <div class="project-thumb">
-                  <img src="./images/img-9.jpg" alt="Проєкт 9" width="370" />
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-8.jpg"
+                    alt="Логотип проекту"
+                    width="370"
+                  />
                   <div class="project-overlay">
-                    <p class="project-overlay__description">
+                    <p class="project-overlay__descr">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -256,9 +288,34 @@
                     </p>
                   </div>
                 </div>
-                <div class="project-list__box">
-                  <h2 class="project-list__title">Growing Business</h2>
-                  <p class="project-list__type">Додаток</p>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Проєкт LAB</h2>
+                  <p class="projects-list__descr">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-list__item">
+              <a class="projects-list__link" href="#">
+                <div class="project-thumb">
+                  <img
+                    class="project-thumb__icon"
+                    src="./images/img-9.jpg"
+                    alt="Додаток"
+                    width="370"
+                  />
+                  <div class="project-overlay">
+                    <p class="project-overlay__descr">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__box">
+                  <h2 class="projects-list__title">Growing Business</h2>
+                  <p class="projects-list__descr">Додаток</p>
                 </div>
               </a>
             </li>
@@ -274,25 +331,25 @@
             ><span class="logo__hightlight">Web</span>Studio</a
           >
           <address>
-            <ul class="contact-list">
-              <li class="contact-list__item">
+            <ul class="address-list">
+              <li class="address-list__item">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="contact-list__address"
+                  class="address-list__link"
                   >м. Київ, пр-т Лесі Украінки, 26</a
                 >
               </li>
-              <li class="contact-list__item">
+              <li class="address-list__item">
                 <a
                   href="mailto:info@devstudio.com"
-                  class="contact-list__contact"
+                  class="address-list__contact"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-list__item">
-                <a href="tel:+380961111111" class="contact-list__contact"
+              <li class="address-list__item">
+                <a href="tel:+380961111111" class="address-list__contact"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -367,7 +424,7 @@
               />
             </label>
 
-            <button class="footer-form__btn" type="submit">
+            <button class="btn footer-form__btn" type="submit">
               Підписатися
               <svg class="btn__icon" width="24" height="24">
                 <use href="./images/icons.svg#plane"></use>
@@ -380,7 +437,7 @@
 
     <script>
       const { height: headerHeight } = document
-        .querySelector(".header")
+        .querySelector(".page-header")
         .getBoundingClientRect();
       document.body.style.paddingTop = `${headerHeight}px`;
     </script>
